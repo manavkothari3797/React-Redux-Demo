@@ -1,5 +1,9 @@
 import React from 'react';
 
-export default function Dashboard() {
-  return <React.Fragment>Dashboard</React.Fragment>;
-}
+const Dashboard = () => {
+  return (
+      <div>Dashboard</div>
+  );
+};
+
+export default Dashboard;
