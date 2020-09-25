@@ -14,8 +14,12 @@ npm install
 ```
 npm run
 ```
+### Application Url
+``` 
+url : https://trello-clone-6a09f.web.app/
+```
 
-### Login Creds for local application
+### Login Creds
 ```
 UserName : test
 Password : 123456
