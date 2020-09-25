@@ -4,8 +4,18 @@
 ```
 purpose of this application is to learn reactjs with the use of redux and redux saga
 ```
+### Install dependancy
+```
+npm install
+```
 
-### Login With
+### Run application In your local 
+
+```
+npm run
+```
+
+### Login Creds for local application
 ```
 UserName : test
 Password : 123456
