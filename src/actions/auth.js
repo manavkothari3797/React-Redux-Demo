@@ -1,21 +1,18 @@
 const authActions = {
   LOGIN_REQUEST: 'LOGIN_REQUEST',
   LOGIN_SUCCESS: 'LOGIN_SUCCESS',
+  LOGIN_FAILED:'LOGIN_FAILED',
   LOGOUT: 'LOGOUT',
+  
   loginRequest: data => {
     return {
-      action: authActions.LOGIN_REQUEST,
+      type: authActions.LOGIN_REQUEST,
       data
-    };
-  },
-  loginSuccess: () => {
-    return {
-      action: authActions.LOGIN_SUCCESS
     };
   },
   logout: () => {
     return {
-      action: authActions.LOGOUT
+      type: authActions.LOGOUT
     };
   }
 };
